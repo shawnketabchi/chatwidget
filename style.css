@@ -1,10 +1,11 @@
-
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
-  }
-  
-  body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
     /* Background image */
     background-image: url("images/wallpaper-darkmode-01.png");
 
@@ -12,9 +13,9 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  .link-about {
+.link-about {
     float: right;
     text-align: right;
     margin-top: 10px;
@@ -25,8 +26,8 @@ body, html {
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-  }
-  
-  .link-about:hover {
+}
+
+.link-about:hover {
     background-color: #3e8e41;
-  }
+}
