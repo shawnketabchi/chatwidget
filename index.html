@@ -17,18 +17,20 @@
   Customer Tech Widget <script src="https://customerwidget.telavox.com/tvx-customer-widget-app.js?widgetId=638d94e2-ec27-4eaf-9fe6-f1f1af683502" charset="utf-8" crossorigin="anonymous" type="text/javascript" defer></script>
 
   <!-- Cention widget -->
-  <script type="text/javascript"
-    src="https://cloud.cention.com/s/cc-telavoxsupport/cention/chat/js/jquery.min.js"></script>
-  <script type="text/javascript">var CentionBaseURL = "https://cloud.cention.com/s/cc-telavoxsupport";</script>
-  <script src="https://cloud.cention.com/s/cc-telavoxsupport/cention/chat/js/widget.js" type="text/javascript"></script>
-  <div id="cention-chat-container"></div>
-  <script type="text/javascript">
-    if (typeof CentionChat !== "undefined") {
-      CentionChat("cention-chat-container", {
-        areaId: 1
-      });
-    }
-  </script>
+<script type="text/javascript" src="https://static.cention.com/eu/chat/js/jquery.min.js"></script>
+<script type="text/javascript">var CentionBaseURL = "https://cloud.cention.com/s/exaktaphoto";</script>
+<script type="text/javascript">var CloudFrontURL = "https://static.cention.com/eu";</script>
+<script type="text/javascript"> var FAQ_WITH_CHAT = true; </script>
+<script src="https://static.cention.com/eu/chat/js/widget.js" type="text/javascript"></script>
+<div id="cention-faq-container"></div>
+<script type="text/javascript">
+if(typeof CentionFAQ !== "undefined") {
+	CentionFAQ("cention-faq-container", {
+	areaId : 5,
+	libraryId : [7,8,40,41,42,75],
+	});
+}
+</script>
 
 </body>
 
