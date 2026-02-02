@@ -7,6 +7,28 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Telavox Chatwidget</title>
+	<style>
+    .deeplink-test-section {
+      margin: 40px 20px;
+      padding: 20px;
+      border: 2px dashed #00d682; /* Telavox Green */
+      border-radius: 10px;
+      font-family: 'Roboto', sans-serif;
+    }
+    .test-btn {
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      background-color: #00d682;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin: 10px 0;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 
 <body>
@@ -16,6 +38,15 @@
   <!-- Telavox widget -->
   Customer Tech Widget <script src="https://customerwidget.joinflow.com/tvx-customer-widget-app.js?widgetId=638d94e2-ec27-4eaf-9fe6-f1f1af683502" charset="utf-8" crossorigin="anonymous" type="text/javascript" defer></script>
   <!-- Cention widget -->
+<div class="deeplink-test-section">
+    <h3>Telavox Deep Link Tests</h3>
+    <p>Try these on your phone:</p>
+    <a href="telavox://" class="test-btn">Test Scheme (telavox://)</a>
+	<a href="telavox+flow://" class="test-btn">Test Scheme (telavox+flow://)</a>
+    <a href="telavox://app" class="test-btn">Test with Host (telavox://app)</a>
+    <a href="telavox://dial/+46700000000" class="test-btn">Test Dial Command</a>
+  </div>
+	
 	
 
 </body>
